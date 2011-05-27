@@ -293,7 +293,7 @@ BOOL FBIsDeviceIPad() {
 // NSObject
 
 - (id)init {
-	self = [super initWithFrame:CGRectZero];
+  self = [super initWithFrame:CGRectZero];
   if (self) {
     _delegate = nil;
     _loadingURL = nil;
