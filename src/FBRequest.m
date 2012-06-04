@@ -202,7 +202,7 @@ static const NSTimeInterval kTimeoutInterval = 180.0;
     }
     
     
-    id result = [responseString objectFromJSONStringWithParseOptions:JKParseOptionNone];;
+    id result = [responseString objectFromJSONStringWithParseOptions:JKParseOptionNone];
 
     if (result == nil) {
         return responseString;
